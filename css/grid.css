@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web');
+
+/* Navigation Bar CSS */
+@import "navbar.css";
+
+/* Cards & List */
+@import "card.css";
+
+/* Footer */
+@import "footer.css";
+
+/* Forms, Register & Login (.php) */
+@import "form.css";
+
+/* Shopping Cart */
+@import "shopping-cart.css";
+
+/* Style CSS */
+body{
+  font-family: 'Titillium Web', sans-serif;
+  font-size:16px;
+  text-align: left;
+  line-height: 1.5em;
+  margin:0;
+  padding:0;
+}
+
+p{
+  font-family: 'Titillium Web', sans-serif;
+}
+nav span{
+  margin-right:5px !important;
+}
+ul > li > ul > li {
+  padding-bottom:10px;
+}
+li{
+	font-size:16px !important;
+}
+.status{
+    position:sticky;
+}

@@ -1,0 +1,22 @@
+#header{
+  display:none;
+  margin-top:15px;
+  font-size:38px;
+  text-align:center;
+}
+#cube{
+  width:10px;
+  margin:0.1%;
+  height:10px;
+  display:none;
+  background-color:black;
+  transform: rotate(45deg);
+  margin-left:50%;
+  animation: 2s infinite linear;
+}
+#info{
+  display:none;
+  margin-bottom:20px;
+  font-size:18px;
+  text-align:center;
+}

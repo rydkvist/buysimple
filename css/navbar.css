@@ -1,0 +1,71 @@
+.navbar{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:0px !important;
+    margin-bottom:0px !important;
+    position:sticky;
+  }
+  .navbar-inverse {
+      background-color: #292c2f !important;
+      border-color: #191919 !important;
+  }
+  .navbar-inverse .navbar-nav>.open>a,  .navbar-inverse .navbar-nav>.open>a:hover {
+      color:#75a5f5 !important;
+      background-color: #191919 !important;
+  }
+  .navbar-inverse .navbar-nav>.open>a:focus{
+      color:#75a5f5 !important;
+  }
+  .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+      color:#75a5f5 !important;
+  }
+  .divider{
+    padding:0%;
+  }
+  
+  #nav-header{
+    font-weight:600 !important;
+  }
+  
+  @media screen and (min-width:1200px){
+    .input-group{
+      margin:0 0 0 2.5em;
+      width:200%;
+    }
+    #form_input{
+      font-size:18px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .input-group{
+      margin:0 0 0 1.5em;
+  
+        width:160%;
+    }
+    #form_input{
+      font-size:16px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .input-group{
+      margin:0 0 0 0em;
+  
+        width:120%;
+    }
+    #form_input{
+      font-size:14px !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .input-group{
+      margin:0 0 0 0em;
+  
+        width:100%;
+      }
+      .navbar-brand{
+          padding:20px 15px !important;
+      }
+      #form_input{
+      font-size:14px;
+      }
+  }

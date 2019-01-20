@@ -1,0 +1,77 @@
+.form-header{
+	margin-left:7.5%;
+	font-weight:700;
+}
+.form-box{
+    font-family: 'Titillium Web', sans-serif;
+	width: 34rem;
+	border-radius:5px;
+    border:1px solid #cdcdcd;
+    height:inherit;
+    margin:auto;
+}
+.form-box > label{
+    padding-top:2rem;
+}
+.form-box > form{
+    display:inline-block;
+}
+.form-box > form > .form-group > input{
+    width:85%;
+    margin-left:7.5%;
+}
+.form-box > .form-btn > input{
+    text-align:center;
+    padding-top:60px;
+}
+.control-label{
+	margin-left:7.5% !important;
+	padding-top:15px !important;
+}
+.logo-text{
+    font-size:30px;
+    text-align:center;
+    padding-top:20px;
+    color:#292c2f;
+	font-weight:600;
+	text-decoration:none !important;
+}
+#form-alert{
+	width:250px;
+	text-align:center;
+	margin:auto;
+	margin-bottom:15px;
+	font-weight:700;
+	font-size:14px;
+}
+.logo-link{
+    text-decoration:none !important;
+    color:#33383b !important;
+}
+.logo-text > a > span{
+    color:#75a5f5 !important;
+}
+#terms{
+	text-align:center;
+	width:90%;
+	margin-left:5%;
+}
+#login-footer{
+	margin-right:220px;
+	padding-bottom:30px;
+	text-align:center;
+	width:90%;
+	margin-left:5%;
+}
+.form-box > form > .checkbox{
+	margin-left:7.5%;
+}
+.form-hr{
+	width:80%;
+}
+#form-footer{
+  text-align:center;
+	margin:0px 0px 30px 10%;
+	width:90%;
+	margin-left:5%;
+}

@@ -1,0 +1,111 @@
+.shopping-cart {
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    margin-left:50px;
+    height: inherit;
+    margin: auto;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    height: 70px;
+    padding: 0px 30px 30px;
+    margin:0px 10% 0px 10%;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom:1px solid #d8d8d8 !important;
+}
+.item {
+    padding: 10px 20px;
+    height: inherit;
+	display: flex;
+}
+.hr-cart{
+    border-bottom:1px solid #d8d8d8;
+    margin:0px 10% 0px 10%;
+}
+.shopping-cart .item .alert, .card .card-body .alert{
+	width:100px;
+	text-align:center;
+	height:0px;
+	padding:1px 0px 18px 0px;
+	margin:0px 0px 0px 10px;
+	display: inline-block;
+	font-weight: 700;
+	font-size:12px;
+}
+.image {
+	height:125px;
+	width:125px;
+	margin:5px 50px -20px 25px;
+}
+.image-responsiv{
+	height:auto;
+	width:100%;
+	max-width:125px;
+}
+.description {
+    margin-right: 60px;
+    width: 315px;
+}
+ 
+.description span {
+	display: block;
+	padding-bottom:5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quantity {
+	text-align:center;
+    margin-right: 90px;
+    padding-top: 15px;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 500;
+}
+ 
+.total-price {
+  width: 83px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: #43484D;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+	overflow: hidden;
+	text-align:center;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 4px 0;
+  }
+  .image{
+      padding-top:10px;
+  }
+  .quantity{
+    width: 100%;
+    padding-top:0px !important;
+    text-align: center;
+    margin: 4px 0;
+  }
+}

@@ -1,0 +1,13 @@
+# Enables Error 404
+ErrorDocument 404 /404.php
+
+# Turn Rewrite Engine On
+RewriteEngine On
+# Rewrite Rule (1) | Removes ".php" from the file
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# Rewrite Rule (2) | Sets "user.php?u=(Name)" to "user/(Name)"
+RewriteRule ^user/([0-9a-zA-Z]+) user.php?u=$1 [NC,L]
+# Rewrite Rule (3) | In case user map is set to "u" instead of "user"
+RewriteRule ^u/([0-9a-zA-Z]+) u.php?u=$1 [NC,L]
+
+RewriteRule ^product/([0-9a-zA-Z]+) product.php?u=$1 [NC,L]
